@@ -1,3 +1,9 @@
+// Example usages:
+// console.log(hasUniqueCharacters("abcd")); // true
+// console.log(hasUniqueCharacters("abcdABCD")); // true
+// console.log(hasUniqueCharacters("abcd abcd")); // false
+// console.log(hasUniqueCharacters("abcdAAA")); // false
+
 function hasUniqueCharacters(string) {
   // Use a Set to track unique symbols
   const seenSymbols = new Set();
@@ -17,9 +23,3 @@ function hasUniqueCharacters(string) {
 
   return true; // All symbols are unique
 }
-
-// Example usages:
-// console.log(hasUniqueCharacters("abcd")); // true
-// console.log(hasUniqueCharacters("abcdABCD")); // true
-// console.log(hasUniqueCharacters("abcd abcd")); // false
-// console.log(hasUniqueCharacters("abcdAAA")); // false

@@ -1,3 +1,12 @@
+// Exmaple usages:
+// console.log(isPalindrome("rececar")); // true
+// console.log(isPalindrome("mouse")); // Is not palidrome and return false
+
+// Exmaple useges with case sensitive:
+// console.log(isPalindrome("annA", false)); // true
+// console.log(isPalindrome("annA", true)); // false
+// console.log(isPalindrome("", true)); // empty string is not Palindrome
+
 function isPalindrome(string, caseSensitive = true) {
   // Clear empty spaces
   string.trim();
@@ -25,12 +34,3 @@ function isPalindrome(string, caseSensitive = true) {
   // If all characters matched, the string is a palindrome
   return true;
 }
-
-// Exmaple usages:
-// console.log(isPalindrome("rececar")); // true
-// console.log(isPalindrome("mouse")); // Is not palidrome and return false
-
-// Exmaple useges with case sensitive:
-// console.log(isPalindrome("annA", false)); // true
-// console.log(isPalindrome("annA", true)); // false
-// console.log(isPalindrome("", true)); // empty string is not Palindrome

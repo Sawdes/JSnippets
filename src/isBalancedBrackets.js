@@ -37,7 +37,7 @@ function isBalancedBrackets(string) {
   }
 
   // Check if each type of bracket has an even count
-  for (const brackets in seenBrackets) {
+  for (let brackets in seenBrackets) {
     if (seenBrackets[brackets] % 2 !== 0) {
       return false; // If any bracket count is odd, return false
     }

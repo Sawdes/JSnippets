@@ -2,6 +2,7 @@
 // isBalancedBrackets("(({[]})) ()") // true
 // isBalancedBrackets("(({[") // false
 
+// I don't like stack implementation
 function isBalancedBrackets(string) {
   // Object to keep track of the number of each type of brackets
   const seenBrackets = {

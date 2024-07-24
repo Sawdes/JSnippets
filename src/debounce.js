@@ -1,4 +1,4 @@
-// Example for uages
+// Examples usage:
 // const debouncedLog = debounce(console.log, 100);
 // debouncedLog("Hello world") // cancelled
 // debouncedLog("Hello world2") // cancelled

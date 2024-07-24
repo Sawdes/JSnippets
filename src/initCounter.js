@@ -1,4 +1,4 @@
-// Exmaple usages:
+// Examples usage:
 // const [increment, decrement] = makeCounter();
 // increment(); // 1
 

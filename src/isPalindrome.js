@@ -1,4 +1,4 @@
-// Exmaple usages:
+// Examples usage:
 // console.log(isPalindrome("rececar")); // true
 // console.log(isPalindrome("mouse")); // Is not palidrome and return false
 

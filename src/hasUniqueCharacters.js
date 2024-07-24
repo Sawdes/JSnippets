@@ -1,4 +1,4 @@
-// Example usages:
+// Examples usage:
 // console.log(hasUniqueCharacters("abcd")); // true
 // console.log(hasUniqueCharacters("abcdABCD")); // true
 // console.log(hasUniqueCharacters("abcd abcd")); // false
